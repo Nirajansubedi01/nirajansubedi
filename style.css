@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: rgb(10, 10, 31);
+    color: white;
+
+}
+.header .opestion a{
+    color: rgb(240, 175, 79);
+}
+.header a{
+    height: 50px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+.header img{
+    height: 100px;
+}
+.bodypart{
+    height:90vh;
+    background-color:  rgb(10, 10, 31);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.text{
+padding: 0px 30px;
+width: 350px;
+
+}
+.text span{
+    color: rgb(216, 219, 14);
+    letter-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text p{
+    letter-spacing: 2px;
+}
+.bodypart img{
+    height: 90vh;
+    padding-left: 30px;
+}
+.text button {
+    color:black;
+    background-color: rgb(216, 219, 14);
+    padding: 10px 20px;
+    transition: 2s; 
+}
+.text button:hover{
+    transform: rotate(180deg);
+}
+.text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* second paart of website */
+.secondtext button {
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.secondtext{
+    width: 350px;
+    
+}
+.secondtext p{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.secondtext h1{
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.secondtext h4{
+    padding-bottom: 10px;
+
+}
+.thirtpart{
+    height:200px;
+}
+.fourthpart{
+    height:95vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+/* .fourthpart img{
+    height: 50vh;
+    padding-left: 30px; */
+/* } */
+.fourthpart .fourthtext{
+    padding: 0px 30px;
+    width: 350px;
+}
+.fourthtext h1{
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourthtext .list{
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+}
+.fourthtext p{
+    padding-bottom: 10px;
+}
+.fourthtext button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(216, 219, 14);
+}
+.mainphoto{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    border: 3px solid rgb(243, 239, 239);
+    margin-left: 30px;
+}
+.mainphoto img{
+    height: 100%;
+    width: 100%;
+
+}
+.mainphoto .double{
+    height: 100%;
+    width: 100%;
+
+}
+.mainphoto .sphoto{
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+}
+.mainphoto .sphoto img{
+    height: 100%;
+    width: 100%;
+}
+.fifthpart{
+    height:95vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+/* contact part of css */
+.contact{
+    height: 100vh;
+    background-color:  rgb(10, 10, 31);
+}
+.firstcontact{
+    display: flex;
+    justify-content: space-between;
+
+}
+.conphoto img{
+    height: 400px;
+    padding: 150px 0px 0px 200px;
+  
+}
+.context{
+    padding: 150px 250px 0px 0px;
+  
+}
+.context h1{
+    padding-bottom: 30px;
+    color: yellow;
+    letter-spacing: 2px;
+}
+.context p{
+    padding-bottom: 20px;
+    color:white;
+}
+#message{
+    padding: 40px;
+    padding-left: 140px;
+    
+}
+#email{
+    padding-left: 180px;
+        
+}
+.context input{
+    margin-bottom: 10px;
+    
+}
+.fuder{
+    background-color:rgb(6, 6, 15);
+    color: white;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address{
+    padding-left: 30px;
+}
+.general{
+    padding-right: 30px;
+}
+#submit{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(216, 219, 14);
+    letter-spacing: 1px;
+
+}
+/* #submit:hover{
+    transform: rotate(180deg);
+} */
